@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <!-- nav bar -->
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active pe-3" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active pe-3" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active pe-3" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                About us
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contacts us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> -->
+    </header>
+    <div class="d-flex justify-content-center mt-2 mb-2">
+        <h2>Welcome to <span class="text-info">your site</span> </h2>
+    </div>
+    <section class="container" id="about">
+        <div class="row ms-5 me-5">
+            <div class="col-lg-4 pt-3">
+                <div class="card bg-info bg-gradient bg-opacity-50 p-3">
+                    <div class="card-body">
+                        <div>
+                            <div class="">
+                                <strong>
+                                    <h4>Depojit</h4>
+                                </strong>
+                                <h2>$<span id="depojit-money">00</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 pt-3">
+                <div class="card bg-warning text-dark  bg-opacity-50 p-3">
+                    <div class="card-body">
+                        <div>
+                            <div>
+                                <strong>
+                                    <h4>Withdrow</h4>
+                                </strong>
+                                <h2>$<span id="withdrow-money">00</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 pt-3">
+                <div class="card bg-secondary text-white bg-opacity-75 p-3">
+                    <div class="card-body">
+                        <div>
+                            <strong>
+                                <h4>Total</h4>
+                            </strong>
+                            <h2>$<span id="total-money">1500</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="container my-5" id="about">
+        <div class="row ms-5 me-5">
+            <div class="col-lg-6 py-1">
+                <div class="card bg-success text-white bg-opacity-50 p-4">
+                    <div class="card-body">
+                        <div class="">
+                            <strong>
+                                <h4>Depojit your Money</h4>
+                            </strong>
+                            <input type="number" name="" id="input-depojit"> <br>
+                            <button id="depojit-btn" type="button" class="btn btn-primary mt-2 ">Depojit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 py-1">
+                <div class="card bg-primary text-white bg-opacity-50 p-4">
+                    <div class="card-body">
+                        <div class="">
+                            <strong>
+                                <h4>withdrow your Money</h4>
+                            </strong>
+                            <input type="number" name="" id="input-withdrow"> <br>
+                            <button id="withdrow-btn" type="button" class="btn btn-primary mt-2 ">withdrow</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/bank.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
