@@ -10,6 +10,7 @@
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -56,7 +57,7 @@
     <section class="container" id="about">
         <div class="row ms-5 me-5">
             <div class="col-lg-4 pt-3">
-                <div class="card bg-info bg-gradient bg-opacity-50 p-3">
+                <div class="card bg-info bg-gradient bg-opacity-50 p-1">
                     <div class="card-body">
                         <div>
                             <div class="">
@@ -70,7 +71,7 @@
                 </div>
             </div>
             <div class="col-lg-4 pt-3">
-                <div class="card bg-warning text-dark  bg-opacity-50 p-3">
+                <div class="card bg-warning text-dark  bg-opacity-50 p-1">
                     <div class="card-body">
                         <div>
                             <div>
@@ -84,7 +85,7 @@
                 </div>
             </div>
             <div class="col-lg-4 pt-3">
-                <div class="card bg-secondary text-white bg-opacity-75 p-3">
+                <div class="card bg-secondary text-white bg-opacity-75 p-1">
                     <div class="card-body">
                         <div>
                             <strong>
@@ -98,37 +99,43 @@
 
         </div>
     </section>
-    <section class="container my-5" id="about">
-        <div class="row ms-5 me-5">
-            <div class="col-lg-6 py-1">
-                <div class="card bg-success text-white bg-opacity-50 p-4">
-                    <div class="card-body">
+    <section class="container">
+        <div class="row my-4 ms-5 me-5" >
+            <div class="col-lg-6">
+                <div class="bg-success text-white bg-opacity-50 p-3">
+                    <div class="">
                         <div class="">
                             <strong>
-                                <h4>Depojit your Money</h4>
+                              Depojit your Money
                             </strong>
-                            <input type="number" name="" id="input-depojit"> <br>
+                            <br>
+                            <input class="border " type="number" name="" id="input-depojit"> <br>
                             <button id="depojit-btn" type="button" class="btn btn-primary mt-2 ">Depojit</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 py-1">
-                <div class="card bg-primary text-white bg-opacity-50 p-4">
-                    <div class="card-body">
+            <div class="col-lg-6">
+                <div class="bg-primary text-white  bg-opacity-50 p-3">
                         <div class="">
                             <strong>
-                                <h4>withdrow your Money</h4>
+                                Withdrow your Money
                             </strong>
-                            <input type="number" name="" id="input-withdrow"> <br>
+                            <br>
+                            <input class="border" type="number" name="" id="input-withdrow"> <br>
                             <button id="withdrow-btn" type="button" class="btn btn-primary mt-2 ">withdrow</button>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <footer>
+       <section class="container-fluid">
+        <div class="d-flex justify-content-center bg-dark text-white bg-opacity-50 align-items-center">
+            <P>Prince@2021</P>
+        </div>
+       </section>
+    </footer>
 
     <script src="js/bank.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
